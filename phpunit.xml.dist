@@ -1,0 +1,10 @@
+<phpunit bootstrap="vendor/autoload.php">
+    <testsuites>
+        <testsuite name="Offline test suite for Open Payment Platform driver for Omnipay payment processing library">
+            <directory>tests/offline</directory>
+        </testsuite>
+        <testsuite name="Online test suite for Open Payment Platform driver for Omnipay payment processing library">
+            <directory>tests/online</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

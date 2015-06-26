@@ -1,0 +1,33 @@
+{
+    "name": "subscribo/omnipay-openpaymentplatform",
+    "description": "Open Payment Platform driver for Omnipay payment processing library",
+    "license": "MIT",
+    "keywords": [
+        "Open Payment Platform",
+        "Omnipay",
+        "payment processing library",
+        "driver",
+        "gateway",
+        "payment"
+    ],
+    "homepage": "http://www.subscribo.io",
+    "authors": [
+        {
+            "name": "Slavo",
+            "role": "developer"
+        },
+        {
+            "name": "Kochabo",
+            "role": "owner",
+            "homepage": "http://kochabo.com"
+        }
+    ],
+    "support": {
+        "email": "packages@subscribo.io",
+        "issues": "https://github.com/Subscribo/omnipay-openpaymentplatform/issues",
+        "source": "https://github.com/Subscribo/omnipay-openpaymentplatform"
+    },
+    "require": {
+        "subscribo/omnipay-subscribo-shared": "^0.3.3"
+    }
+}
